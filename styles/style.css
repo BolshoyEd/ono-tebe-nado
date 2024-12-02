@@ -63,7 +63,7 @@ body {
 .cover {
   position: relative;
   width: 100%;
-  height: 757px;
+  padding-bottom: 52px;
   margin-bottom: 179px;
   background-image: url(/images/cover.jpg);
   background-repeat: no-repeat;
