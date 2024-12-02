@@ -15,6 +15,7 @@ body {
   height: 22px;
   margin: 44px 36px 39px 26.52px;
 }
+
 .header__links-list {
   display: flex;
   column-gap: 31px;
@@ -60,6 +61,7 @@ body {
   text-decoration: underline;
   text-underline-position: under;
 }
+
 .cover {
   position: relative;
   width: 100%;
@@ -69,7 +71,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
 
 .cover__title {
@@ -244,7 +245,6 @@ body {
 }
 
 .about {
-  
   display: grid;
   grid-template-columns: 334px 1fr;
   column-gap: 25px; 
