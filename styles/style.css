@@ -1,1 +1,361 @@
-/* место для вашего кода */
+body {
+  background-color: #fff;
+}
+
+.header {
+  display: grid;  
+  grid-template-columns: 1fr 148px 1fr;
+  padding: 92px 24px 96px 24px;
+  font-weight: 400;
+  font-size: 18px; 
+}
+
+.header_menu { 
+  width: 391.48px;
+  height: 22px;
+  margin: 44px 36px 39px 26.52px;
+}
+.header__links-list {
+  display: flex;
+  column-gap: 31px;
+  letter-spacing: 0.01em;
+}
+
+.header__links-list-item_no-bullet {
+  text-decoration: none;
+  list-style: none;
+}
+
+.header__link_active {
+  text-decoration: underline;
+  text-underline-position: under;
+  list-style: circle;
+}
+
+.header__logo {
+  width: 148px;
+  height: 105px;
+}
+
+.header__logo-image {
+  width: 98%;
+  height: 100%;
+}
+
+.address_header {
+  justify-self: end;
+  padding-top: 6px;
+  padding-right: 59px;
+}
+
+.address_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  letter-spacing: 0.01em;
+  list-style: none;
+}
+
+.adress_style {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.cover {
+  position: relative;
+  width: 100%;
+  height: 757px; 
+  margin-bottom: 179px;
+  background-image: url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.cover__title {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;  
+  padding: 164px 50px 137px 50px;
+  color: #fff;
+  font-size: 100px; 
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  line-height: 100px;
+  text-align: center;
+}
+
+.aligned-text_right {
+  line-height: 100px;
+  text-align: right;
+}
+
+.letter-spacing-extended { 
+  letter-spacing: 0.6em; 
+}
+
+.no-letter-spacing  { 
+  letter-spacing: 0em; 
+}
+
+.cover__description {
+  position: relative;
+  z-index: 1;  
+  display: flex;
+  justify-content: space-between;  
+  column-gap: 1px;
+  margin-right: 50px;
+  margin-left: 78px;
+}
+
+.cover__description-text{
+  padding-top: 11px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  border: 1px solid #fff;
+  padding: 12px 32px 11px 31px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px; 
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgb(0 0 0 / 0.6);
+}
+
+.lots {
+  margin-bottom: 146px;
+}
+
+.lots__heading {
+  margin-bottom: 26px;
+  margin-left: 63px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46.96px;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  flex-grow: 1;
+  column-gap: 25px;
+  margin-right: 24px;
+  margin-bottom: 31px;
+  margin-left: 24px;
+  list-style: none;
+}
+
+.card-link {
+  position: relative;
+  display: block;
+  width: 334px;
+  height: 563px;
+}
+
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.card_type_film {
+  background-image: url(/images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_book {
+  background-image: url(/images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_picture {
+  background-image: url(/images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card__title {
+  position: relative;
+  z-index: 1;
+  padding: 51px 40px 0px 40px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.4px;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-transform: uppercase;
+}
+
+.card__text{
+  position: relative;
+  z-index: 1;
+  padding: 0px 40px 48px 40px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.ellipsis_card {
+  letter-spacing: 0.13em; 
+}
+
+.lots__look-more-link {
+  margin-left: 64px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.48px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.about {
+  
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  column-gap: 25px; 
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.about__column_logo{ 
+  display: flex;
+  justify-content: center;
+  height: 563px;
+  padding-top: 37px;  
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;     
+  background: black;
+}
+
+.about__logo-image {
+  height: 112px;
+}
+
+.about__title {
+  padding-top: 138px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;  
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.about_first_p {
+  padding-top: 99px;
+  padding-bottom: 24px;
+  letter-spacing: 0.01em;
+}
+
+.letter_spacing_first {
+  letter-spacing: 0;
+}
+
+.letter_spacing_second {
+  letter-spacing: 0.02em;
+}
+
+.letter_spacing_thirdy {
+  letter-spacing: -0.01em;
+}
+
+.letter_spacing_fourth {
+  letter-spacing: 0.03em;
+}
+
+.letter_spacing_fifth {
+  letter-spacing: 0.04em;
+}
+
+.letter_spacing_sixth {
+  letter-spacing: 0.01em;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 182px 50px 52px 50px;
+}
+
+.address_footer {
+  padding-left: 1px;
+}
+
+.address-list-footer {
+  row-gap: 6px;
+  line-height: 20px;
+  letter-spacing: 0.06em;
+}
+
+.footer__menu-list{
+  text-align: center;
+  list-style: none;
+}
+
+.footer__menu-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-transform: lowercase;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list-item {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 94px;
+}
+
+.footer__social-icon {
+  width: 47px;
+}
