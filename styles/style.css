@@ -36,6 +36,13 @@
   height: 100%;
 }
 
+.address {
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0.01em;
+  font-style: normal;
+}
+
 .address_header {
   justify-self: end;
   padding-top: 6px;
@@ -45,7 +52,6 @@
 .address_list {
   display: flex;
   flex-direction: column;
-  row-gap: 5px;
   letter-spacing: 0.01em;
   list-style: none;
 }
@@ -53,6 +59,8 @@
 .adress_style {
   text-decoration: underline;
   text-underline-position: under;
+
+  
 }
 
 .cover {
@@ -152,8 +160,9 @@
 .lots__card-list {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   flex-grow: 1;
+  row-gap: 25px;
+  flex-wrap: wrap;
   column-gap: 25px;
   margin-right: 24px;
   margin-bottom: 31px;
