@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
-  padding: 62px 24px 96px 24px;
+  padding: 92px 24px 96px 24px;
   font-weight: 400;
   font-size: 18px;
 }
